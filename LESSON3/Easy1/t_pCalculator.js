@@ -11,5 +11,5 @@ tipPercentage = parseInt(tipPercentage) / 100;
 let tipAmount = billAmount * tipPercentage;
 let totalBill = billAmount + tip;
 
-console.log(`The tiop is $${tipAmount}`);
-console.log(`The total is $${totalBill}`)
+console.log(`チップは $${tipAmount}`);
+console.log(`合計は $${totalBill}`)

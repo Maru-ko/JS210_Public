@@ -11,5 +11,5 @@ tipPercentage = parseFloat(tipPercentage) / 100;
 let tipAmount = billAmount * tipPercentage;
 let totalBill = billAmount + tipAmount;
 
-console.log(`The tip is $${tipAmount.toFixed(2)}`);
-console.log(`The total is $${totalBill.toFixed(2)}`)
+console.log(`チップは $${tipAmount}`);
+console.log(`合計は $${totalBill}`)
